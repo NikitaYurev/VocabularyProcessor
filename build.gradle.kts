@@ -28,6 +28,10 @@ dependencies {
     implementation("io.ktor:ktor-client-core:2.2.4")
     implementation("io.ktor:ktor-client-okhttp:2.2.4")
     implementation("com.google.code.gson:gson:2.9.1")
+    implementation(kotlin("test"))
+    implementation(kotlin("test-junit"))
+
+    testImplementation("android.arch.core:core-testing:1.1.0")
 }
 
 compose.desktop {
